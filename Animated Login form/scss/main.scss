@@ -1,0 +1,16 @@
+@import './resets';
+@import './variables';
+@import './login';
+
+@mixin flexCenter(){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body{
+  @include flexCenter();
+  min-height: 100vh;
+  background: $background-color;
+}
+
